@@ -1,0 +1,296 @@
+[{
+    "questionType": "one",
+    "questionText": "Why is AWS more economical than traditional data centers for application with varying compute workloads?",
+    "options": ["Amazon EC2 costs are billed on a monthly basis.",
+      "Users retain full administrative access to their Amazon EC2 instance.",
+      "Amazon EC2 instances can be launched on demand when needed.",
+      "Users can permanently run enough instances to handle peak workloads."
+      ],
+    "correct": [2],
+    "resource": "r'https://aws.amazon.com/compliance/shared-responsibility-model/'"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which AWS service would simplify the migration of a database to AWS?",
+    "options": [
+      "AWS Storage Gateway",
+      "AWS Database Migration Service (AWS DMS)",
+      "Amazon EC2",
+      "Amazon AppStream 2.0"
+    ],
+    "correct": [1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "three",
+    "questionText": "AWS uses the shared responsibility model. For security, which of the following are the responsibilities of AWS? Choose 3",
+    "options": [
+      "User password rules",
+      "Configure Security Groups",
+      "Physically securing compute resources",
+      "Network patching",
+      "Disk disposal"
+    ],
+    "correct": [0, 0, 1, 1, 1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Upon venturing into using the AWS Cloud, your company decides to follow the 5 pillars of the AWS Well Architected Framework. Which items are pillars of the Well Architected Framework? Choose 2",
+    "options": [
+      "Scalability",
+      "Operational Excellence",
+      "Elasticity",
+      "Ease of Use",
+      "Reliability"
+    ],
+    "correct": [0, 1, 0, 0, 1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+   {
+    "questionType": "one",
+    "questionText": "Under the shared responsibility model, which of the following is the customer responsible for?",
+    "options": [
+      "Ensuring that disk drives are wiped after use.",
+      "Ensuring that firmware is updated on hardware devices.",
+      "Ensuring that data is encrypted at rest.",
+      "Ensuring that network cables are category six or higher."
+    ],
+    "correct": [2],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Choose two.)",
+    "options": [
+      "High availability",
+      "Elasticity",
+      "Shared security model",
+      "Pay-as-you-go pricing",
+      "Reliability"
+    ],
+    "correct": [0, 1, 0, 1, 0],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software licenses?",
+    "options": [
+      "Spot Instances",
+      "Reserved Instances",
+      "On-Demand Instances",
+      "Dedicated Hosts"
+    ],
+    "correct": [3],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance?",
+    "options": [
+      "AWS Cost Explorer",
+      "AWS Trusted Advisor",
+      "Consolidated billing",
+      "Detailed billing"
+    ],
+    "correct": [1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Which AWS services can host a Microsoft SQL Server database? (Choose two.)",
+    "options": [
+      "Amazon S3",
+      "Amazon Redshift",
+      "Amazon Aurora",
+      "Amazon Relational Database Service (Amazon RDS)",
+      "Amazon EC2"
+    ],
+    "correct": [0, 0, 0, 1, 1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?",
+    "options": [
+      "Implement automation.",
+      "Design for agility.",
+      "Design for failure.",
+      "Implement elasticity."
+    ],
+    "correct": [2],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+    "options": [
+      "AWS Partner Network Technology Partners",
+      "AWS Marketplace",
+      "AWS Partner Network Consulting Partners",
+      "AWS Service Catalog"
+    ],
+    "correct": [2],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice areas?",
+    "options": [
+      "AWS Enterprise Support",
+      "AWS Professional Services",
+      "AWS Solutions Architects",
+      "AWS Account Managers"
+    ],
+    "correct": [1],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
+    "options": [
+      "Amazon Glacier",
+      "AWS Storage Gateway",
+      "Amazon S3",
+      "Amazon EBS"
+    ],
+    "correct": [2],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "The use of what AWS feature or service allows companies to track and categorize spending on a detailed level?",
+    "options": [
+      "AWS Budgets",
+      "Consolidated billing",
+      "AWS Marketplace",
+      "Cost allocation tags"
+    ],
+    "correct": [3],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Compared with costs in traditional and virtualized data centers, AWS has:",
+    "options": [
+      "lower variable costs and lower upfront costs.",
+      "fixed usage costs and lower upfront costs.",
+      "lower variable costs and greater upfront costs.",
+      "greater variable costs and greater upfront costs."
+    ],
+    "correct": [0],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which of the following Reserved Instance (RI) pricing models provides the highest average savings compared to On-Demand pricing?",
+    "options": [
+      "Three-year, No Upfront, Convertible RI pricing",
+      "Three-year, All Upfront, Standard RI pricing",
+      "One-year, No Upfront, Standard RI pricing",
+      "One-year, All Upfront, Convertible RI pricing"
+    ],
+    "correct": [1],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Which of the following are advantages of AWS consolidated billing? (Choose two.)",
+    "options": [
+      "The ability to receive one bill for multiple accounts",
+      "Potential volume discounts, as usage in all accounts is combined",
+      "Service limits increasing by default in all accounts",
+      "A fixed discount on the monthly bill",
+      "The automatic extension of the master account's AWS support plan to all accounts"
+    ],
+    "correct": [1, 1, 0, 0, 0],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "three",
+    "questionText": "Which AWS tools assist with estimating costs? (Choose three.)",
+    "options": [
+      "Detailed billing report",
+      "Cost allocation tags",
+      "AWS Simple Monthly Calculator",
+      "AWS Total Cost of Ownership (TCO) Calculator",
+      "Cost Estimator"
+    ],
+    "correct": [0, 1, 1, 1, 0],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
+    "options": [
+      "Data centers contain regions.",
+      "Regions contain Availability Zones.",
+      "Availability Zones contain edge locations.",
+      "Edge locations contain regions."
+    ],
+    "correct": [1],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "one",
+    "questionText": "A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. Which service should the company use?",
+    "options": [
+      "Amazon EC2 with Amazon Elastic Block Store (Amazon EBS)",
+      "Amazon Elastic Compute Cloud (Amazon EC2) with Amazon EC2 instance store",
+      "Amazon DynamoDB",
+      "Amazon Redshift"
+    ],
+    "correct": [0],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "one",
+    "questionText": "What costs are included when comparing AWS Total Cost of Ownership (TCO) with on-premises TCO?",
+    "options": [
+      "Project management",
+      "Antivirus software licensing",
+      "Data center security",
+      "Software development"
+    ],
+    "correct": [3],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Which services can be used across hybrid AWS Cloud architectures? (Choose two.)",
+    "options": [
+      "Elastic Block Storage",
+      "Virtual Private Gateway",
+      "Elastic File System",
+      "Amazon ElasticMapReduce",
+      "Amazon CloudTrail"
+    ],
+    "correct": [0, 1, 1, 0, 0],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "two",
+    "questionText": "Which of the following are characteristics of Amazon S3? (Choose two.)",
+    "options": [
+      "A global file system",
+      "An object store",
+      "A local file store",
+      "A network file system",
+      "Cannot be shared among application"
+    ],
+    "correct": [1, 1, 0, 0, 0],
+    "resource": "https://aws.amazon.com/compliance/shared-responsibility-model/"
+  },
+  {
+    "questionType": "one",
+    "questionText": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
+    "options": [
+      "Amazon CloudWatch",
+      "AWS CloudTrail",
+      "AWS Config",
+      "AWS Health"
+    ],
+    "correct": [1],
+    "resource": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html"
+  }
+]
