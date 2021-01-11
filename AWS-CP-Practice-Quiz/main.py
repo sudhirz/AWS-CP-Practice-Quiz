@@ -239,7 +239,7 @@ style.configure("TCheckbutton", font=("Times", 12))
 
 feedback = tk.StringVar()
 
-with open("aws-cp.json") as my_file:
+with open("aws-cp-practice-quiz.json") as my_file:
     aws_cp = json.load(my_file)
 
 # will catch up from the question last left
